@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://cognitive-assignment.onrender.com/";
 
 export async function createPaste(payload) {
   const res = await fetch(`${BASE_URL}/api/pastes`, {
